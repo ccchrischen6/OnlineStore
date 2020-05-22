@@ -1,4 +1,4 @@
-# imoocmall
+# OnlineStore 
 
 > A Vue.js project
 
