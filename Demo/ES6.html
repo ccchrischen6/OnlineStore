@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ES6 Demo</title>
+  <style>
+    .log{
+      background-color: black;
+      color: white;
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+<body>
+<h2>ES6 Demo</h2>
+<div id="log" class="log"></div>
+<script>
+
+
+  var str = `
+  var a = 1;
+  console.log("a " + a);
+  let b = 2;
+  console.log("b " + b);
+  `;
+
+  // printLog(str);
+
+  var [a,b] = [4,5,9];
+  console.log(`a: ${a}, b: ${b}`);
+
+  function printLog(str) {
+    document.getElementById("log").innerText = str;
+
+  }
+</script>
+</body>
+</html>
